@@ -1,0 +1,193 @@
+// Team Fortress SPEECH SYSTEM SENTENCES. Max of 1023 sentences.
+
+// --------- Canal Zone --------- //
+
+CZ_GOTCP1 vox/командная точка один защищена
+CZ_LOSTCP1 vox/командная точка один теперь вражеская
+
+CZ_GOTCP2 vox/командная точка два защищена
+CZ_LOSTCP2 vox/командная точка два теперь вражеская
+
+CZ_GOTCP3 vox/командная точка три защищена
+CZ_LOSTCP3 vox/командная точка три теперь вражеская
+
+CZ_GOTCP4 vox/командная точка четыре защищена
+CZ_LOSTCP4 vox/командная точка четыре теперь вражеская
+
+CZ_GOTCP5 vox/командная точка пять защищена
+CZ_LOSTCP5 vox/командная точка пять теперь вражеская
+
+CZ_GOTALL vox/doop все командные точки защищены _comma _comma _comma командные точки сброшены
+CZ_THEYGOTALL vox/buzwarn противник захватил все командные точки _comma _comma _comma командные точки сброшены
+
+CZ_BCC_DET vox/buzwarn синий центр управления уничтожен _comma _comma _comma командные точки синих сброшены
+CZ_RCC_DET vox/buzwarn красный центр управления уничтожен _comma _comma _comma командные точки красных сброшены
+
+// --------- Capture the Flag --------- //
+
+// You captured the enemy flag
+// Your team captured the flag
+// The Enemy team captured the flag
+
+CTF_YOUCAP vox/endgame вы захватили вражеский флаг
+CTF_TEAMCAP vox/endgame ваша команда захватила флаг
+CTF_THEYCAP vox/endgame вражеская команда захватила флаг
+
+// You have the enemy flag
+// Your team has the enemy flag
+// The enemy has your flag
+
+CTF_YOUGOTFLAG vox/buzwarn вы взяли вражеский флаг
+CTF_GOTFLAG vox/buzwarn ваша команда взяла вражеский флаг
+CTF_LOSTFLAG vox/buzwarn противник взял твой флаг
+
+// Your flag has returned
+// The enemy flag has returned
+
+CTF_FLAGBACK vox/deeoo твой флаг возвращён
+CTF_EFLAGBACK vox/dadeda вражеский флаг возвращён
+
+// --------- Hunted --------- //
+
+HTD_DOORS vox/дверь побега открыта
+
+// --------- The Rock --------- //
+
+RK_BYARDOPEN vox/buzwarn синий двор был проломлен
+RK_RYARDOPEN vox/buzwarn красный двор был проломлен
+
+// your key has returned
+// enemy key returned
+
+RK_KEYBACK vox/deeoo ваш ключ возвращён
+RK_EKEYBACK vox/dadeda вражеский ключ возвращён
+
+// your team has the enemy key
+// the enemy has your key
+
+RK_GOTKEY vox/buzwarn ваша команда взяла вражеский ключ
+RK_LOSTKEY vox/buzwarn противник взял твой ключ
+
+// blue/red team scores
+
+RK_BSCORE vox/синей команде засчитаны очки _comma _comma _comma выпущен_нервно-паралитический_газ _comma _comma _comma наденьте защитный костюм немедленно
+RK_RSCORE vox/красной команде засчитаны очки  _comma _comma _comma выпущен_нервно-паралитический_газ _comma _comma _comma наденьте защитный костюм немедленно
+
+// Take key to enemy gas chamber
+RK_TAKEKEY vox/отнесите ключ к газовой камере врага
+
+FBALL_BSCORE vox/синей команде засчитаны очки
+FBALL_RSCORE vox/красной команде засчитаны очки
+
+// --------- Dustbowl --------- //
+
+DUST_5MIN fvox/времени_осталось, пять минут
+DUST_4MIN fvox/времени_осталось, четыре минуты
+DUST_3MIN fvox/времени_осталось, три минуты
+DUST_2MIN fvox/времени_осталось, две минуты
+DUST_60SEC fvox/времени_осталось, шестьдесят секунд
+DUST_30SEC fvox/времени_осталось, тридцать секунд
+
+DUST_CP1 vox/doop синяя команда защитила командную точку один
+DUST_CP2 vox/doop синяя команда защитила командную точку два
+
+DUST_HOLD vox/doop красная команда удерживает красную базу
+DUST_CAP vox/doop синяя команда захватила красную базу
+
+// --------- Doublemint --------- //
+
+DBLMINT_YOUCAP vox/doop вы захватили флаг
+DBLMINT_TEAMCAP vox/doop ваша команда захватила флаг
+DBLMINT_ECAP vox/doop вражеская команда захватила флаг
+
+// --------- War --------- //
+
+WAR_YSEC_1 vox/doop вы защитили флаг один
+WAR_YSEC_2 vox/doop вы защитили флаг два
+WAR_YSEC_3 vox/doop вы защитили флаг три
+WAR_YSEC_4 vox/doop вы защитили флаг четыре
+
+WAR_TSEC_1 vox/doop ваша команда защитила флаг один
+WAR_TSEC_2 vox/doop ваша команда защитила флаг два
+WAR_TSEC_3 vox/doop ваша команда защитила флаг три
+WAR_TSEC_4 vox/doop ваша команда защитила флаг четыре
+
+WAR_ESEC_1 vox/doop вражеская команда защитила флаг один
+WAR_ESEC_2 vox/doop вражеская команда защитила флаг два
+WAR_ESEC_3 vox/doop вражеская команда защитила флаг три
+WAR_ESEC_4 vox/doop вражеская команда защитила флаг четыре
+
+WAR_HAVE_1 vox/buzwarn вы взяли флаг один
+WAR_HAVE_2 vox/buzwarn вы взяли флаг два
+WAR_HAVE_3 vox/buzwarn вы взяли флаг три
+WAR_HAVE_4 vox/buzwarn вы взяли флаг четыре
+
+WAR_TEAM_1 vox/buzwarn ваша команда взяла флаг один
+WAR_TEAM_2 vox/buzwarn ваша команда взяла флаг два
+WAR_TEAM_3 vox/buzwarn ваша команда взяла флаг три
+WAR_TEAM_4 vox/buzwarn ваша команда взяла флаг четыре
+
+WAR_EN_1 vox/buzwarn противник взял флаг один
+WAR_EN_2 vox/buzwarn противник взял флаг два
+WAR_EN_3 vox/buzwarn противник взял флаг три
+WAR_EN_4 vox/buzwarn противник взял флаг четыре
+
+WAR_STOLE_1 vox/buzwarn вы украли флаг один
+WAR_STOLE_2 vox/buzwarn вы украли флаг два
+WAR_STOLE_3 vox/buzwarn вы украли флаг три
+WAR_STOLE_4 vox/buzwarn вы украли флаг четыре
+
+WAR_TSTOLE_1 vox/buzwarn ваша команда украла флаг один
+WAR_TSTOLE_2 vox/buzwarn ваша команда украла флаг два
+WAR_TSTOLE_3 vox/buzwarn ваша команда украла флаг три
+WAR_TSTOLE_4 vox/buzwarn ваша команда украла флаг четыре
+
+WAR_ESTOLE_1 vox/buzwarn противник украл флаг один
+WAR_ESTOLE_2 vox/buzwarn противник украл флаг два
+WAR_ESTOLE_3 vox/buzwarn противник украл флаг три
+WAR_ESTOLE_4 vox/buzwarn противник украл флаг четыре
+
+WAR_RET_1 vox/deeoo флаг один возвращён
+WAR_RET_2 vox/deeoo флаг два возвращён
+WAR_RET_3 vox/deeoo флаг три возвращён
+WAR_RET_4 vox/deeoo флаг четыре возвращён
+
+WAR_BWINS vox/doop синяя команда защитила флаг один два три и четыре
+WAR_RWINS vox/doop красная команда защитила флаг один два три и четыре
+
+WAR_BRET1 vox/doop синяя команда вернула флаг один
+WAR_BRET2 vox/doop синяя команда вернула флаг два
+WAR_BRET3 vox/doop синяя команда вернула флаг три
+WAR_BRET4 vox/doop синяя команда вернула флаг четыре
+
+WAR_RRET1 vox/doop красная команда вернула флаг один
+WAR_RRET2 vox/doop красная команда вернула флаг два
+WAR_RRET3 vox/doop красная команда вернула флаг три
+WAR_RRET4 vox/doop красная команда вернула флаг четыре
+
+WAR_YRET1 vox/doop вы вернули флаг один
+WAR_YRET2 vox/doop вы вернули флаг два
+WAR_YRET3 vox/doop вы вернули флаг три
+WAR_YRET4 vox/doop вы вернули флаг четыре
+
+
+
+
+// --------- Warpath --------- //
+ENEMY_IN_BASE vox/buzwarn противник внутри твоей базы(s10 e90 p95)
+
+// --------- Italy ----------- //
+ITALY_HOLE vox/buzwarn командная точка четыре была проломлена
+
+ITALY_CP1 vox/doop командная точка один защищена
+ITALY_ECP1 vox/buzwarn командная точка один теперь вражеская
+
+ITALY_CP2 vox/doop командная точка два защищена
+ITALY_ECP2 vox/buzwarn командная точка два теперь вражеская
+
+ITALY_CP3 vox/doop командная точка три защищена
+ITALY_ECP3 vox/buzwarn командная точка три теперь вражеская
+
+ITALY_CP4 vox/endgame командная точка четыре защищена
+ITALY_ECP4 vox/endgame командная точка четыре теперь вражеская
+
