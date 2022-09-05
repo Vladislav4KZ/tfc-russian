@@ -28,10 +28,22 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Build & Release
         run: |
-          sudo apt install convmv
+          sudo apt install convmv sox
           convmv --notest -r -f utf-8 -t windows-1251 ./
-          zip TFCRusFull.pk3 -r -9 *
-          zip TFCRusFull.pk3 -m -0 cached.wad fonts.wad gfx.wad
+          zip TFCRusFull_Xash3D.pk3 -r -9 *
+          zip TFCRusFull_Xash3D.pk3 -m -0 cached.wad fonts.wad gfx.wad
+          mv TFCRusFull_Xash3D.pk3 ..
+          mkdir sound/vox/goldsrc sound/fvox/goldsrc
+          cd sound/vox
+          for file in *.wav; do sox ${file} -r 22050 ./goldsrc/${file}; done
+          cd ../fvox
+          for file in *.wav; do sox ${file} -r 22050 ./goldsrc/${file}; done
+          cd ../../
+          rm -rf sound/vox/*.wav && mv sound/vox/goldsrc/*.wav sound/vox
+          rm -rf sound/fvox/*.wav && mv sound/fvox/goldsrc/*.wav sound/fvox
+          rm -rf sound/vox/goldsrc sound/fvox/goldsrc
+          python3 .tools/makepak.py ./ TFCRusFull_GoldSrc.pak
+          mv ../TFCRusFull_Xash3D.pk3 $PWD
       # Uploads specified files to GitHub Releases
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -39,4 +51,6 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           title: "Release"
-          files: TFCRusFull.pk3
+          files: |
+            TFCRusFull_Xash3D.pk3
+            TFCRusFull_GoldSrc.pak
