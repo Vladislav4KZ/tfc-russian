@@ -35,9 +35,9 @@ jobs:
           mv TFCRusFull.pk3 ..
           mkdir sound/vox/goldsrc sound/fvox/goldsrc
           cd sound/vox
-          for file in *; do sox ${file} -r 22050 ./goldsrc/${file}; done
+          for file in *.wav; do sox ${file} -r 22050 ./goldsrc/${file}; done
           cd ../fvox
-          for file in *; do sox ${file} -r 22050 ./goldsrc/${file}; done
+          for file in *.wav; do sox ${file} -r 22050 ./goldsrc/${file}; done
           cd ../../
           rm -rf sound/vox/*.wav && mv sound/vox/goldsrc/*.wav sound/vox
           rm -rf sound/fvox/*.wav && mv sound/fvox/goldsrc/*.wav sound/fvox
